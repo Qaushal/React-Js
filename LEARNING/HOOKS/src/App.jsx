@@ -10,6 +10,8 @@ function App() {
 
   const addValue = () =>{
     setCounter(counter+1);
+    setCounter(counter=counter+1);
+    setCounter(counter=counter+1);
     if(counter>4) {
       setCounter(5);
     }
